@@ -155,6 +155,9 @@ const preventDefault = (e: Event) => {
         @change="readImage"
       />
     </label>
+
+    
+<!--
     <div
       class="dbr-sound"
       @click="switchSoundPlay"
@@ -175,6 +178,9 @@ const preventDefault = (e: Event) => {
         v-show="!settingsStore.playSound"
       />
     </div>
+-->
+
+    
     <label class="dbr-current-mode" v-show="!captureImageStore.isShowCaptureImagePage">{{ currentModeName }}</label>
     <HeaderRightPart />
   </div>
