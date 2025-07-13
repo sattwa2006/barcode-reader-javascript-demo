@@ -21,9 +21,9 @@ const useCaseStore = useUseCaseStore();
 const captureImageStore = useCaptureImageStore();
 const currentInstance: any = getCurrentInstance();
 
-const switchSoundPlay = () => {
-  settingsStore.updatePlaySound(!settingsStore.playSound);
-};
+// const switchSoundPlay = () => {
+//  settingsStore.updatePlaySound(!settingsStore.playSound);
+// };
 
 const currentModeName = computed(() => {
   if (useCaseStore.isGeneral) {
